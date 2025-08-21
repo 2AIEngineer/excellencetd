@@ -41,8 +41,8 @@ const App = () => (
       <Toaster />
       <Sonner />
       <ToastContainer {...toastConfig} />
-      <ScrollToTop />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/service" element={<Service />} />
