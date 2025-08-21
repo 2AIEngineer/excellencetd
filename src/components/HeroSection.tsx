@@ -177,7 +177,7 @@ export default function HeroSection() {
                       >
                         <Icon className={`w-7 h-7 text-white ${stat.icon === Star ? "fill-current" : ""}`} />
                       </div>
-                      <div className="text-3xl font-bold text-gray-900 mb-1">{stat.number}</div>
+                      <div className="xs:text-2xl md:text-4xl font-bold text-gray-900 mb-1">{stat.number}</div>
                       <div className="text-sm text-gray-600 font-medium">{stat.text}</div>
                     </div>
                   );
